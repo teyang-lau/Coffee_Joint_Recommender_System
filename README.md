@@ -13,7 +13,7 @@
 │   ├── temp
 ├── notebooks           <- notebooks for explorations / prototyping
 │   ├── eda
-│   ├── cleaning
+│   ├── preprocessing
 │   ├── training
 ├── results             <- storing results and outputs
 │   ├── outputs
