@@ -1,3 +1,5 @@
+![alt text](results/images/baristabot.jpg?raw=true)
+
 # Project Directory Structure
 
 ```
