@@ -16,7 +16,7 @@
 │   ├── preprocessing
 │   ├── training
 ├── results             <- storing results and outputs
-│   ├── outputs
+│   ├── outputs         <- store model recommendations
 │   ├── plots
 │   ├── models          <- Trained and serialized models, model predictions, or model summaries
 └── src                 <- all source code, internal org as needed
