@@ -1,4 +1,6 @@
-![alt text](results/images/baristabot.jpg?raw=true)
+<p align="center">
+  <img src="results/images/baristabot.jpg">
+</p>
 
 # Project Directory Structure
 
