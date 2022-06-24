@@ -18,7 +18,7 @@ app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
 # ETL 
 ##################################################################################################
 
-with open('./data/recommendations/MostPop_lol.txt_recommendations.txt', encoding="utf-8") as f:
+with open('./data/recommendations/MostPop_lol.txt_recommendations.txt', encoding = 'utf-8') as f:
     most_pop = f.readlines()[0].split()
 
 # shop information
@@ -351,7 +351,7 @@ def output_changecards(child, button1, button2, button3, button4, button5, useri
                         dbc.Button("View Map", color="primary", id="button_"+str(shop)),
                         dbc.Popover(
                             html.Iframe(
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCIIp4Wz-UC-Lx5XzHZQAp16dd4x8qbVgE&q="+str(shop_info.loc[shop_info["alias"] == shop, "address"].values[0][-17:-11]), 
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxf8lpft3Kv-tf2nH0vGnxGeAx3HSJNW8&q="+str(shop_info.loc[shop_info["alias"] == shop, "address"].values[0][-17:-11]), 
                                 style={"width":"300", "height":"450", "allowfullscreen":"", "loading":"lazy", "referrerpolicy":"no-referrer-when-downgrade", "border":"0"}
                             ),
                             # "",
@@ -416,15 +416,15 @@ def output_changecards(child, button1, button2, button3, button4, button5, useri
                             str(shop_info.loc[shop_info["alias"] == shop, "price"].values[0]),
                         ]), className="card-text",
                         ),
-                        dbc.Button("View Map", color="primary", id="button_"+str(shop)),
+                        dbc.Button("View Map", color="primary", id="button_fm_"+str(shop)),
                         dbc.Button("View Attributes", color="primary", id="button_explain_"+str(shop), style={'margin-left': 15}),
                         dbc.Popover(
                             html.Iframe(
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCIIp4Wz-UC-Lx5XzHZQAp16dd4x8qbVgE&q="+str(shop_info.loc[shop_info["alias"] == shop, "address"].values[0][-17:-11]), 
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxf8lpft3Kv-tf2nH0vGnxGeAx3HSJNW8&q="+str(shop_info.loc[shop_info["alias"] == shop, "address"].values[0][-17:-11]), 
                                 style={"width":"300", "height":"450", "allowfullscreen":"", "loading":"lazy", "referrerpolicy":"no-referrer-when-downgrade", "border":"0"}
                             ),
                             # "",
-                            target=f"button_"+str(shop),
+                            target=f"button_fm_"+str(shop),
                             trigger="click",
                             placement="bottom",
                         ),
