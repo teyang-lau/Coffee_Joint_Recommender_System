@@ -1,6 +1,13 @@
+# Welcome to BaristaBoard!
+
 <p align="center">
-  <img src="results/images/baristabot.jpg">
+  <img src="results\images\baristaboard.gif">
 </p>
+<br>
+
+# About BaristaBoard
+BaristaBoard is created by a group of coffee enthusiasts who found a need for recommending coffee to fellow Singaporeans.
+<br>
 
 # Project Directory Structure
 
