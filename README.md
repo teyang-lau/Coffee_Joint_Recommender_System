@@ -7,12 +7,13 @@
 
 # About BaristaBoard
 BaristaBoard is created by a group of coffee enthusiasts who found a need for recommending coffee to fellow Singaporeans.
-<br>
+<br><br>
 
 # Project Directory Structure
 
 ```
 .
+├── dashboard           <- codes and data for dashboard development
 ├── data                <- data storage for different steps
 │   ├── raw
 │   ├── intermediate
