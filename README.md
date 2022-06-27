@@ -22,6 +22,7 @@ BaristaBoard is created by a group of coffee enthusiasts who found a need for re
 ├── notebooks           <- notebooks for explorations / prototyping
 │   ├── eda
 │   ├── preprocessing
+│   ├── scraping
 │   ├── training
 ├── results             <- storing results and outputs
 │   ├── outputs         <- store model recommendations
